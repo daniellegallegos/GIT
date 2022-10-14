@@ -1,0 +1,69 @@
+git init
+git add . 
+git commit -m "first commit"
+git remote add origin https://github.com/daniellegallegos/GIT.git
+git config –-global user.name email “jose.chacon.mt@usa.edu.co
+git config –-global user.name email "danielle.gallegos.mt@usa.edu.co"
+git config –-global user.name “daniellegallegos"
+git commit -m "Adicion primer proyecto"
+git remote add origin https://github.com/daniellegallegos/GIT.git
+git branch -M main
+git push -u origin main
+git commit -m "first commit"
+
+echo "# GIT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/daniellegallegos/GIT.git
+git push -u origin main
+
+echo "# GIT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/daniellegallegos/GIT.git
+git push -u origin main
+echo "# GIT" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/daniellegallegos/GIT.git
+git push -u origin main
+1998herediA
+git commit --amend --reset-author
+git init
+git commit -m "Adicion primer proyecto"
+git config –-global user.name email “danielle.gallegos.mt@usa.edu.co"
+git config –-global user.name “daniellegallegos"
+git commit -m "Adicion primer proyecto"
+git remote add origin https://github.com/daniellegallegos/GIT.git
+SELECT * FROM GYM 
+BEGIN 
+    INSERT INTO GYM (ID,BRAND,MODEL,CATEGORY_ID,NAME) VALUES(:id,:brand,:model,:category_id,:name);
+    :status_code:=201;
+END;
+BEGIN
+    UPDATE GYM SET BRAND=:brand, MODEL=:model, 
+    CATEGORY_ID=:category_id, NAME=:name WHERE ID=:id;
+    :status_code:=201;
+END;
+BEGIN 
+    DELETE FROM GYM WHERE ID=:id;
+    :status_code:=204;
+END;
+SELECT * FROM GYM WHERE ID=:id
+ls
+git init
+git status
+git add --all
+ls
+git init
+git add --all
+ls
+git init
+git add
+git add . 
